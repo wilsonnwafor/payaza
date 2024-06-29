@@ -37,10 +37,10 @@ const Home = () => {
         {/* Store Buttons */}
         <div className={styles.downloadBtns}>
           <a href="#">
-            <img src="/google-play-black.png" alt="" />
+            <img src="./google-play-black.png" alt="" />
           </a>
           <a href="#">
-            <img src="/app-store-black.png" alt="" />
+            <img src="./app-store-black.png" alt="" />
           </a>
         </div>
         <span style={{fontStyle: "italic", fontWeight: "600"}}>
@@ -50,7 +50,7 @@ const Home = () => {
       <div className={styles.welcomeMockup}  >
         {/* Welcome Thumb */}
         <div className="">
-          <img src="/welcome-mockup-2.png"/>
+          <img src="./welcome-mockup-2.png"/>
         </div>
       </div>
       {/* Shape Bottom */}

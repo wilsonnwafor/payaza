@@ -46,7 +46,7 @@ const Contact = () => {
           </div>
         </div>
         <div className={style.mockup} data-aos='fade-left' >
-          <img src="/thumb-1.png" alt="" />
+          <img src="./thumb-1.png" alt="" />
         </div>
       </div>
     </div>

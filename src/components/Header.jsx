@@ -34,7 +34,7 @@ const Header = () => {
       <header className={`${styles.navbar} ${ scroll ? styles.scrolled : ""}`}>
         <div className={styles.navbarInner}>
           <Link className={styles.navbarBrand} to="home" smooth={true} duration={500}>
-            <img src="/logo-white.png" alt="logo" />
+            <img src="./logo-white.png" alt="logo" />
           </Link>
           <div className={styles.navigation}>
             <nav>

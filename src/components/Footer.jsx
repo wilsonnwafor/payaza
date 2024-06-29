@@ -15,7 +15,7 @@ const Footer = () =>{
       <div className={style.footerLinks} >
         <div className={style.footerLogo}>
           <Link to="home" smooth={true} duration={500}>
-            <img src="/logo.png" alt="" />
+            <img src="./logo.png" alt="" />
           </Link>
         </div>
         <div className={style.social}>
@@ -62,10 +62,10 @@ const Footer = () =>{
         <div className={style.download}>
           <h3>Download</h3>
           <a href="#">
-            <img src="/google-play-black.png" alt="" />
+            <img src="./google-play-black.png" alt="" />
           </a>
           <a href="#">
-            <img src="/app-store-black.png" alt="" />
+            <img src="./app-store-black.png" alt="" />
           </a>
         </div>
       </div> 

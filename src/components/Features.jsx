@@ -28,7 +28,7 @@ const Features = () => {
         <div className={styles.row}>
           <div className={styles.featuresBox} data-aos="zoom-in">
             <div className={styles.featuresIcon}>
-              <img src="/layers.png" alt="" />
+              <img src="./layers.png" alt="" />
             </div>
             <div className={styles.featuresText}>
               <h2>
@@ -41,7 +41,7 @@ const Features = () => {
           </div>
           <div className={styles.featuresBox} data-aos="fade-left">
             <div className={styles.featuresIcon}>
-              <img src="/lock.png" alt="" />
+              <img src="./lock.png" alt="" />
             </div>
             <div className={styles.featuresText}>
               <h2>
@@ -56,7 +56,7 @@ const Features = () => {
         <div className={styles.row}>
           <div className={styles.featuresBox} data-aos="fade-left">
             <div className={styles.featuresIcon}>
-              <img src="/speak.png" alt="" />
+              <img src="./speak.png" alt="" />
             </div>
             <div className={styles.featuresText}>
               <h2>
@@ -69,7 +69,7 @@ const Features = () => {
           </div>
           <div className={styles.featuresBox} data-aos="fade-left">
             <div className={styles.featuresIcon}>
-              <img src="/support.png" alt="" />
+              <img src="./support.png" alt="" />
             </div>
             <div className={styles.featuresText}>
               <h2>
