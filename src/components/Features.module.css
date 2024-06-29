@@ -1,0 +1,133 @@
+.features{
+  width: 80%;
+  margin:  1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.featuresIntro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 80%;
+  text-align: center;
+}
+
+.h1{
+  font-size: var(--fs-lg);
+}
+.p{
+  font-size: var(--fs-sm);
+}
+.hr{
+  height: .1rem;
+  width: 20%;
+  background-color: var(--bg-blue);
+}
+@media (max-width: 1100px) {
+  .featuresIntro{
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .h1{
+    font-size: var(--font-small);
+  }
+  .p{
+    font-size: 1rem;
+  }
+}
+
+.ourFeatures{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.ourFeatures .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.featuresBox{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  border-radius: 1rem;
+  box-shadow: .1rem .1rem 1rem .1rem var(--box-shadow);
+  padding: 3rem 1rem;
+  transform: scale(.98);
+  transition: all.5s;
+}
+
+.featuresBox:hover{
+  box-shadow: .1rem .1rem 5rem .19rem var(--box-shadow);
+  transform: translateY(-.7rem) scale(1);
+}
+
+.featuresIcon img{
+  height: 4rem;
+}
+
+.featuresText{
+  width: 80%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.featuresText p{
+  font-size: var(--fs-sm);
+  margin-top: .5rem;
+}
+
+@media (max-width: 900px) {
+  .ourFeatures .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .ourFeatures .row .featuresBox{
+    width: 45%;
+  }
+  .featuresText{
+    width: 90%;
+    line-height: 1.5rem;
+  }
+  .featuresText p{
+    font-size: 1rem;
+    margin-top: .5rem;
+  }
+
+}
+@media (max-width: 700px) {
+  .ourFeatures .row{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  } 
+  .ourFeatures .row .featuresBox{
+    width: 100%;
+  }
+  .h1{
+    font-size: var(--fs-sm);
+  }
+  .p{
+    font-size: 1rem;
+  }
+
+  
+}
