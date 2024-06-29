@@ -14,7 +14,7 @@ const Features = () => {
   }, []);
 
   return (
-    <section id="features" className={styles.features}>
+    <section className={styles.features}>
       <div className={styles.featuresIntro}>
         <div className={styles.h1}>
           <h1>What Makes AzaPay different? </h1>
